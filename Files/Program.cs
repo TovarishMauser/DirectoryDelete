@@ -47,7 +47,7 @@ namespace Files
             if ((dirName == null) || (dirName.IndexOfAny(Path.GetInvalidPathChars()) != -1))
                 return false;
             try
-            {                
+            {
                 return true;
             }
             catch (NotSupportedException)
